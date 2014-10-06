@@ -47,6 +47,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="api" level="project" />
   </component>
 </module>
 
