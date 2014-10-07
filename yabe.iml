@@ -12,7 +12,10 @@
     <content url="file://$USER_HOME$/activator-1.2.10-minimal/modules/docviewer">
       <sourceFolder url="file://$USER_HOME$/activator-1.2.10-minimal/modules/docviewer/app" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
+    <content url="file://$USER_HOME$/activator-1.2.10-minimal/modules/secure">
+      <sourceFolder url="file://$USER_HOME$/activator-1.2.10-minimal/modules/secure/app" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="module-library">
