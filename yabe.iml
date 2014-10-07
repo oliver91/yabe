@@ -6,16 +6,18 @@
       <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
     </content>
+    <content url="file://$USER_HOME$/activator-1.2.10-minimal/modules/crud">
+      <sourceFolder url="file://$USER_HOME$/activator-1.2.10-minimal/modules/crud/app" isTestSource="false" />
+    </content>
     <content url="file://$USER_HOME$/activator-1.2.10-minimal/modules/docviewer">
       <sourceFolder url="file://$USER_HOME$/activator-1.2.10-minimal/modules/docviewer/app" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.6" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="module-library">
       <library name="Project Libraries">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/lib" />
           <root url="file://$USER_HOME$/activator-1.2.10-minimal/modules/docviewer/lib" />
         </CLASSES>
         <JAVADOC />
@@ -47,7 +49,6 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" name="api" level="project" />
   </component>
 </module>
 

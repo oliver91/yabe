@@ -1,6 +1,7 @@
 package models;
 
 import org.hibernate.mapping.Map;
+import play.data.validation.Required;
 import play.db.jpa.Model;
 
 import javax.persistence.Entity;
@@ -9,6 +10,7 @@ import java.util.List;
 @Entity
 public class Tag extends Model implements Comparable<Tag> {
 
+    @Required
     public String name;
 
     private Tag(String name) {
